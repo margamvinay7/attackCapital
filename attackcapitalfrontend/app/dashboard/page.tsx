@@ -21,11 +21,9 @@ export default function Dashboard() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-  // Fetch posts only on the client-side
   useEffect(() => {
     const getPosts = async () => {
       try {
-        // Ensure this runs only on the client-side
         if (typeof window !== "undefined") {
           const user: any = localStorage.getItem("user");
 
@@ -45,7 +43,7 @@ export default function Dashboard() {
     };
 
     getPosts();
-  }, []); // Empty dependency array means this effect runs only once after the first render
+  }, []);
 
   if (loading) {
     return <div>Loading...</div>;

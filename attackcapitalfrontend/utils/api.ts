@@ -9,7 +9,6 @@ const API = axios.create({
 });
 
 API.interceptors.request.use((config) => {
-  // Ensure the code is running on the client side
   if (typeof window !== "undefined") {
     const storedToken = localStorage.getItem("token");
     if (storedToken) {
