@@ -207,6 +207,14 @@ For example, the following code ensures that only authenticated users can access
 
 ---
 
+<p align="center">
+  <img src="./attackcapitalfrontend/designs/login.png" alt="Desktop UI" style="width:800px; height:400px;">
+  <img src="./attackcapitalfrontend/designs/signup.png" alt="Desktop UI" style="width:800px; height:400px;">
+  <img src="./attackcapitalfrontend/designs/homepage.png" alt="Desktop UI" style="width:800px; height:400px;">
+  <img src="./attackcapitalfrontend/designs/dashboard.png" alt="Desktop UI" style="width:800px; height:400px;">
+  <img src="./attackcapitalfrontend/designs/createPost.png" alt="Desktop UI" style="width:800px; height:400px;">
+</p>
+
 ## Conclusion
 
 This project demonstrates the use of Next.js for building full-stack applications with frontend and backend integrated. It includes middleware for protecting routes, form validation using Zod, and efficient form handling with React Hook Form. 
